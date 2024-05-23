@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    display: flex;
+}
+
+#functionkeybox,
+#numberkeybox{
+    flex-direction: column;
+}
+
+#numberkeybox{
+    flex-wrap: wrap;
+}
+
+#footer{
+    display: flex;
+}
